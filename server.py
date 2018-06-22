@@ -25,4 +25,4 @@ def pets_routes_with_distance(distancia_moto):
 			pets_no_raio.append(pet)
 	return jsonify(pets_no_raio)
 
-app.run(port=5000)
+app.run()
